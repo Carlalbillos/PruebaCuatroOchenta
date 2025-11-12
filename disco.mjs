@@ -24,6 +24,5 @@ export class Disco {
         console.log(`Nombre: ${this.nombre}`);
         console.log(`Capacidad: ${this.capacidad}`);
         console.log(`Contenido: ${this.contenido || '(vacío)'}`);
-        console.log(`Espacio usado: ${this.contenido ? this.contenido.length : 0} caracteres`);
     }
 }
