@@ -8,7 +8,7 @@ export class Rueda extends DiscoGiratorio {
     }
 
     girarDisco() {
-        console.log(`Rueda "${this.nombre}" girando sobre su eje`);
+        console.log(`Disco Giratorio: "${this.nombre}" girando sobre su eje`);
     }
 
     mostrarInformacion() {
