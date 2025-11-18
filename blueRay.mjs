@@ -7,6 +7,7 @@ export class BlueRay extends DiscoConDatos {
     static MATERIAL_PREDETERMINADO = "Policarbonato";
     static ESREGRABABLE_PREDETERMINADO = false;
 
+
     constructor(
         nombre,
         capacidad = BlueRay.CAPACIDAD_PREDETERMINADA,
